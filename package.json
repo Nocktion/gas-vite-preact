@@ -17,8 +17,8 @@
 		"prepare": "husky",
 		"test:watch": "vitest",
 		"test": "vitest run",
-		"deploy:dev": "npm run format && npm test && npm run build && ncp .clasp-dev.json .clasp.json && ncp appscript.json dist/appscript.json && clasp push -f",
-		"deploy:prod": "npm run format && npm test && npm run build && ncp .clasp-prod.json .clasp.json && ncp appscript.json dist/appscript.json && clasp push -f",
+		"deploy:dev": "npm run format && npm test && npm run build && ncp .clasp-dev.json .clasp.json && ncp appsscript.json dist/appsscript.json && clasp push -f",
+		"deploy:prod": "npm run format && npm test && npm run build && ncp .clasp-prod.json .clasp.json && ncp appsscript.json dist/appsscript.json && clasp push -f",
 		"deploy": "npm run deploy:dev"
 	},
 	"dependencies": {
