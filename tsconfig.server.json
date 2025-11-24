@@ -1,0 +1,10 @@
+{
+    "extends": "./tsconfig.json",
+	"compilerOptions": {
+		"target": "ES2020",
+		"module": "ESNext",
+		"noEmit": true,
+		"types": ["google-apps-script"]
+	},
+	"include": ["src/server", "src/common"]
+}
